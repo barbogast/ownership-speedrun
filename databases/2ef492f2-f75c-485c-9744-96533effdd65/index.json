@@ -1,0 +1,32 @@
+{
+  "columns": [
+    {
+      "csvName": "date",
+      "dbName": "date",
+      "type": "integer"
+    },
+    {
+      "csvName": "time",
+      "dbName": "time",
+      "type": "integer"
+    },
+    {
+      "csvName": "wasRecord",
+      "dbName": "wasrecord",
+      "type": "text"
+    },
+    {
+      "csvName": "name",
+      "dbName": "name",
+      "type": "text"
+    },
+    {
+      "csvName": "recordDurationDays",
+      "dbName": "recorddurationdays",
+      "type": "integer"
+    }
+  ],
+  "id": "2ef492f2-f75c-485c-9744-96533effdd65",
+  "label": "d1",
+  "tableName": "t1"
+}

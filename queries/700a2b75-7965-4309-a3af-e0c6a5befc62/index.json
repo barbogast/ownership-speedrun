@@ -1,0 +1,19 @@
+{
+  "chartType": "lineChart",
+  "databaseFileName": "",
+  "databaseSource": {
+    "id": "2ef492f2-f75c-485c-9744-96533effdd65",
+    "type": "local"
+  },
+  "id": "700a2b75-7965-4309-a3af-e0c6a5befc62",
+  "label": "Record timeline",
+  "transformConfig": {
+    "dataOrientation": "row",
+    "dataRowIndex": 0,
+    "labelColumn": "name",
+    "selectedColumns": [
+      "time"
+    ]
+  },
+  "transformType": "config"
+}
