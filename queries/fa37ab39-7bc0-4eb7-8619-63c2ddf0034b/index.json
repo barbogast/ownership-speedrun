@@ -1,5 +1,7 @@
 {
-  "chartType": "barChart",
+  "chartConfig": {
+    "chartType": "barChart"
+  },
   "databaseFileName": "",
   "databaseSource": {
     "id": "2ef492f2-f75c-485c-9744-96533effdd65",
