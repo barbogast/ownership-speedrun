@@ -1,27 +1,27 @@
 {
   "columns": [
     {
-      "csvName": "date",
+      "sourceName": "date",
       "dbName": "date",
       "type": "text"
     },
     {
-      "csvName": "time",
+      "sourceName": "time",
       "dbName": "time",
       "type": "text"
     },
     {
-      "csvName": "wasRecord",
+      "sourceName": "wasRecord",
       "dbName": "wasRecord",
       "type": "text"
     },
     {
-      "csvName": "name",
+      "sourceName": "name",
       "dbName": "name",
       "type": "text"
     },
     {
-      "csvName": "recordDurationDays",
+      "sourceName": "recordDurationDays",
       "dbName": "recordDurationDays",
       "type": "integer"
     }
