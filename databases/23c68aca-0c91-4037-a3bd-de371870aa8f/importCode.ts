@@ -1,8 +1,7 @@
 
 type Value = string | number | null | undefined
 type Row = Record<string, Value>
-type Columns = { name: string, type: "text" | "integer" | "real" }[]
-type ReturnValue = { data: Row[], columns: Columns }
+type ReturnValue = Row[]
 
 // import fs from "fs/promises";
 
@@ -162,7 +161,6 @@ const writeRunDataToCsv = (runs: EnhancedRun[]) => {
     "recordDurationDays",
   ] as const;
 
-  const header = [...originalDataColumns, ...derivedDataColumns].map(k => ({ name: k, type: 'text' as const }));
   const rows = []
   for (const run of runs) {
     const row = {}
@@ -175,7 +173,7 @@ const writeRunDataToCsv = (runs: EnhancedRun[]) => {
     rows.push(row)
   }
 
-  return { data: rows, columns: header }
+  return rows
   // const data = runs
   //   .map((run) =>
   //     originalDataColumns
