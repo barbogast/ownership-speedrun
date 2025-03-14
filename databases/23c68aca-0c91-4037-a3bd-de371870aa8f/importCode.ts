@@ -167,10 +167,10 @@ const writeRunDataToCsv = (runs: EnhancedRun[]) => {
   for (const run of runs) {
     const row = {}
     for (const key of originalDataColumns) {
-      row[key] = run.originalData[key]
+      row[key] = run.originalData[key] ?? null
     }
     for (const key of derivedDataColumns) {
-      row[key] = run.derivedData[key]
+      row[key] = run.derivedData[key] ?? null
     }
     rows.push(row)
   }
